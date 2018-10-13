@@ -1,0 +1,18 @@
+SQL> select * from userlist;
+
+UNAME                PASSWORD
+-------------------- --------------------
+khan                 12345
+david                david
+alen                 alen
+aamir                khan
+
+SQL> select * from account;
+
+     ACCNO ACCOUNTHOLDER            AMOUNT
+---------- -------------------- ----------
+      1101 khan                      50000
+      1102 aamir                     60000
+      1103 david                     70000
+      1104 alen                      80000
+      1105 cooper                    90000
